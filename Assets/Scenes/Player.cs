@@ -10,37 +10,40 @@ public class Player : MonoBehaviour
     Rigidbody2D rigid;
     SpriteRenderer spriterender;
     Animator anim;
-    public Text text1;
     private bool gojump = false;
-    public Button text2;
-    public Button text3;
     string ai = "";
     string aijump = "";
-    int currentinsturction = 0;
-    int currentinstructionjump = 0;
+    int currentinsturction = -1;
+    int currentinstructionjump = -1;
     int nextmove = 0;
+    int doublejump = 0;
+    bool candoublejump = false;
     public GameObject[] coins;
     bool[] v;
+    bool[] v2;
+    public GameObject players; 
     // Start is called before the first frame update
     void Start()
     {
+
         v = new bool[coins.Length];
+        v2 = new bool[players.transform.childCount];
         score = 0;
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriterender = GetComponent<SpriteRenderer>();
-        for(int i = 0; i < 50; i++)
+        for(int i = 0; i < players.transform.childCount; i++)
         {
             int ran = Random.Range(0, 3);
             int jum = Random.Range(0, 2);
             ai += ran;
             aijump += jum;
         }
-        text1.text = ai;
+        Debug.Log(ai);
+        Debug.Log(aijump);
         play();
         jump();
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -53,24 +56,49 @@ public class Player : MonoBehaviour
         rigid.velocity = new Vector2(nextmove, rigid.velocity.y);
         if (rigid.velocity.y < 0)
         {
-            Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
             RaycastHit2D hit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("GROUND"));
             if (hit.collider != null)
             {
                 if (hit.distance < 0.5f)
                 {
+                    doublejump = 0;
                     anim.SetBool("isjumping", false);
                 }
             }
         }
-        if (gojump && !anim.GetBool("isjumping"))
+        if (anim.GetBool("isjumping") && doublejump == 1)
         {
-            rigid.AddForce(Vector2.up * 16, ForceMode2D.Impulse);
+            candoublejump = true;
+        }
+        else candoublejump = false;
+        if (currentinstructionjump >= aijump.Length && currentinsturction >= aijump.Length)
+            return;
+        if (gojump && !v2[currentinstructionjump])
+        {
+            v2[currentinstructionjump] = true;
+            if (!anim.GetBool("isjumping"))
+            {
+                rigid.AddForce(Vector2.up * 18, ForceMode2D.Impulse);
+                doublejump = 1;
+            }
+            else if(rigid.velocity.y<-5 && candoublejump)
+            {
+                rigid.AddForce(Vector2.up * 18, ForceMode2D.Impulse);
+                doublejump = 0;
+            }
+            else
+            {
+                //Debug.Log(currentinstructionjump);
+                aijump = aijump.Remove(currentinstructionjump, 1); //processing missed jump
+                aijump = aijump.Insert(currentinstructionjump, "0"); //processing missed jump
+                //Debug.Log(aijump);               
+            }
             anim.SetBool("isjumping", true);
         }
     }
     void play()
     {
+        currentinsturction++;
         if (currentinsturction>= ai.Length)
         {
             CancelInvoke();
@@ -78,8 +106,6 @@ public class Player : MonoBehaviour
             gojump = false;
             return;
         }
-        text2.GetComponentInChildren<Text>().text = ""+(currentinsturction+1)+"번째 명령";
-        text3.GetComponentInChildren<Text>().text = "" + ai[currentinsturction];
         if (ai[currentinsturction] == '0')
         {
             nextmove = -3;
@@ -94,11 +120,11 @@ public class Player : MonoBehaviour
         {
             nextmove = 0;
         }
-        currentinsturction++;
         Invoke("play", 0.3f);
     }
     void jump()
     {
+        currentinstructionjump++;
         if (currentinstructionjump>= aijump.Length)
         {
             CancelInvoke();
@@ -108,7 +134,6 @@ public class Player : MonoBehaviour
         }
         if (aijump[currentinstructionjump] == '0') gojump = false;
         else gojump = true;
-        currentinstructionjump++;
         Invoke("jump", 0.3f);
     }
     private void OnTriggerEnter2D(Collider2D collision)
