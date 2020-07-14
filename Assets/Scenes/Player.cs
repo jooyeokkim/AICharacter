@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    private int score;
     public int playerid;
     Rigidbody2D rigid;
     SpriteRenderer spriterender;
@@ -18,9 +19,13 @@ public class Player : MonoBehaviour
     int currentinsturction = 0;
     int currentinstructionjump = 0;
     int nextmove = 0;
+    public GameObject[] coins;
+    bool[] v;
     // Start is called before the first frame update
     void Start()
     {
+        v = new bool[coins.Length];
+        score = 0;
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriterender = GetComponent<SpriteRenderer>();
@@ -32,7 +37,6 @@ public class Player : MonoBehaviour
             aijump += jum;
         }
         text1.text = ai;
-        Debug.Log(aijump);
         play();
         jump();
     }
@@ -106,5 +110,25 @@ public class Player : MonoBehaviour
         else gojump = true;
         currentinstructionjump++;
         Invoke("jump", 0.3f);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "dropcollider")
+        {
+
+        }
+        if (collision.gameObject.tag == "rewards")
+        {
+            for(int i = 0; i < coins.Length; i++)
+            {
+                string s = "coin" + i;
+                if (collision.gameObject.name == s)
+                {
+                    v[i] = true;
+                    Debug.Log(s);
+                }
+            }
+        }
+
     }
 }
