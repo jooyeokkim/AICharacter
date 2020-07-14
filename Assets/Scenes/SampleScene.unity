@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 38395510}
   m_Layer: 8
   m_Name: Player41
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,7 +141,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38395508}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -194,10 +194,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 41
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &38395513
 Rigidbody2D:
   serializedVersion: 4
@@ -283,7 +297,7 @@ GameObject:
   - component: {fileID: 55276677}
   m_Layer: 8
   m_Name: Player19
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -296,7 +310,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55276675}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -349,10 +363,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 19
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &55276680
 Rigidbody2D:
   serializedVersion: 4
@@ -1379,7 +1407,7 @@ GameObject:
   - component: {fileID: 75461629}
   m_Layer: 8
   m_Name: Player22
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1392,7 +1420,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75461627}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -1445,10 +1473,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 22
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &75461632
 Rigidbody2D:
   serializedVersion: 4
@@ -1727,7 +1769,7 @@ GameObject:
   - component: {fileID: 101334024}
   m_Layer: 8
   m_Name: Player18
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1740,7 +1782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101334022}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -1793,10 +1835,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 18
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &101334027
 Rigidbody2D:
   serializedVersion: 4
@@ -1882,7 +1938,7 @@ GameObject:
   - component: {fileID: 104928738}
   m_Layer: 8
   m_Name: Player29
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1895,7 +1951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104928736}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -1948,10 +2004,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 29
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &104928741
 Rigidbody2D:
   serializedVersion: 4
@@ -2037,7 +2107,7 @@ GameObject:
   - component: {fileID: 109532629}
   m_Layer: 8
   m_Name: Player10
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2050,7 +2120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109532627}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -2103,10 +2173,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 10
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &109532632
 Rigidbody2D:
   serializedVersion: 4
@@ -2192,7 +2276,7 @@ GameObject:
   - component: {fileID: 118155462}
   m_Layer: 8
   m_Name: Player46
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2205,7 +2289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118155460}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -2258,10 +2342,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 46
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &118155465
 Rigidbody2D:
   serializedVersion: 4
@@ -2347,7 +2445,7 @@ GameObject:
   - component: {fileID: 120125753}
   m_Layer: 8
   m_Name: Player15
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2360,7 +2458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120125751}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -2413,10 +2511,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 15
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &120125756
 Rigidbody2D:
   serializedVersion: 4
@@ -2929,7 +3041,7 @@ GameObject:
   - component: {fileID: 205880523}
   m_Layer: 8
   m_Name: Player42
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2942,7 +3054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205880521}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -2995,10 +3107,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 42
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &205880526
 Rigidbody2D:
   serializedVersion: 4
@@ -3163,7 +3289,7 @@ GameObject:
   - component: {fileID: 285766495}
   m_Layer: 8
   m_Name: Player26
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3176,7 +3302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285766493}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -3229,10 +3355,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 26
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &285766498
 Rigidbody2D:
   serializedVersion: 4
@@ -3692,7 +3832,7 @@ GameObject:
   - component: {fileID: 416691338}
   m_Layer: 8
   m_Name: Player25
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3705,7 +3845,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416691336}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -3758,10 +3898,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 25
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &416691341
 Rigidbody2D:
   serializedVersion: 4
@@ -3847,7 +4001,7 @@ GameObject:
   - component: {fileID: 435828226}
   m_Layer: 8
   m_Name: Player13
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3860,7 +4014,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435828224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -3913,10 +4067,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 13
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &435828229
 Rigidbody2D:
   serializedVersion: 4
@@ -4002,7 +4170,7 @@ GameObject:
   - component: {fileID: 470509962}
   m_Layer: 8
   m_Name: Player37
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4015,7 +4183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470509960}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -4068,10 +4236,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 37
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &470509965
 Rigidbody2D:
   serializedVersion: 4
@@ -4157,7 +4339,7 @@ GameObject:
   - component: {fileID: 479923722}
   m_Layer: 8
   m_Name: Player33
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4170,7 +4352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479923720}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -4223,10 +4405,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 33
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &479923725
 Rigidbody2D:
   serializedVersion: 4
@@ -4473,7 +4669,7 @@ GameObject:
   - component: {fileID: 528348859}
   m_Layer: 8
   m_Name: Player44
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4486,7 +4682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528348857}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -4539,10 +4735,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 44
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &528348862
 Rigidbody2D:
   serializedVersion: 4
@@ -4612,6 +4822,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &577859469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 577859470}
+  - component: {fileID: 577859471}
+  - component: {fileID: 577859472}
+  m_Layer: 0
+  m_Name: coin3
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &577859470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577859469}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.3679285, y: 0.02497673, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &577859471
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577859469}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &577859472
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577859469}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &586369411
 GameObject:
   m_ObjectHideFlags: 0
@@ -5203,7 +5509,7 @@ GameObject:
   - component: {fileID: 698060519}
   m_Layer: 8
   m_Name: Player12
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5216,7 +5522,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698060517}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -5269,10 +5575,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 12
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &698060522
 Rigidbody2D:
   serializedVersion: 4
@@ -5435,7 +5755,7 @@ GameObject:
   - component: {fileID: 708568889}
   m_Layer: 8
   m_Name: Player28
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5448,7 +5768,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708568887}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -5501,10 +5821,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 28
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &708568892
 Rigidbody2D:
   serializedVersion: 4
@@ -5744,7 +6078,7 @@ GameObject:
   - component: {fileID: 727489630}
   m_Layer: 8
   m_Name: Player49
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5757,7 +6091,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727489628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -5810,10 +6144,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 49
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &727489633
 Rigidbody2D:
   serializedVersion: 4
@@ -6044,7 +6392,7 @@ GameObject:
   - component: {fileID: 755049097}
   m_Layer: 8
   m_Name: Player32
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6057,7 +6405,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755049095}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -6110,10 +6458,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 32
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &755049100
 Rigidbody2D:
   serializedVersion: 4
@@ -6195,7 +6557,7 @@ GameObject:
   - component: {fileID: 774209097}
   m_Layer: 0
   m_Name: dropcollider
-  m_TagString: Untagged
+  m_TagString: dropcollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6210,7 +6572,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 21.363836, y: -0.08662033}
@@ -6234,12 +6596,108 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774209096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.13, y: -9.91, z: -0.22559887}
+  m_LocalPosition: {x: -21.13, y: -9.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &804708835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 804708836}
+  - component: {fileID: 804708837}
+  - component: {fileID: 804708838}
+  m_Layer: 0
+  m_Name: coin10
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &804708836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804708835}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.415961, y: 0.87416166, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &804708837
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804708835}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.5, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &804708838
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804708835}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &825479417
 GameObject:
   m_ObjectHideFlags: 0
@@ -6528,7 +6986,7 @@ GameObject:
   - component: {fileID: 890111439}
   m_Layer: 8
   m_Name: Player40
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6541,7 +6999,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890111437}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -6594,10 +7052,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 40
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &890111442
 Rigidbody2D:
   serializedVersion: 4
@@ -6683,7 +7155,7 @@ GameObject:
   - component: {fileID: 939657901}
   m_Layer: 8
   m_Name: Player43
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6696,7 +7168,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939657899}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -6749,10 +7221,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 43
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &939657904
 Rigidbody2D:
   serializedVersion: 4
@@ -6952,7 +7438,7 @@ GameObject:
   - component: {fileID: 1054769756}
   m_Layer: 8
   m_Name: Player35
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6965,7 +7451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054769754}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -7018,10 +7504,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 35
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1054769759
 Rigidbody2D:
   serializedVersion: 4
@@ -7107,7 +7607,7 @@ GameObject:
   - component: {fileID: 1068077843}
   m_Layer: 8
   m_Name: Player14
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7120,7 +7620,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068077841}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -7173,10 +7673,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 14
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1068077846
 Rigidbody2D:
   serializedVersion: 4
@@ -7262,7 +7776,7 @@ GameObject:
   - component: {fileID: 1072362031}
   m_Layer: 8
   m_Name: Player30
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7275,7 +7789,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072362029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -7328,10 +7842,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 30
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1072362034
 Rigidbody2D:
   serializedVersion: 4
@@ -7401,6 +7929,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1099537582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099537583}
+  - component: {fileID: 1099537584}
+  - component: {fileID: 1099537585}
+  m_Layer: 0
+  m_Name: coin8
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1099537583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099537582}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.219989, y: -1.1239214, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1099537584
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099537582}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.5, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &1099537585
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099537582}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &1174998255
 GameObject:
   m_ObjectHideFlags: 0
@@ -7417,7 +8041,7 @@ GameObject:
   - component: {fileID: 1174998257}
   m_Layer: 8
   m_Name: Player45
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7430,7 +8054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174998255}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -7483,10 +8107,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 45
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1174998260
 Rigidbody2D:
   serializedVersion: 4
@@ -7651,7 +8289,7 @@ GameObject:
   - component: {fileID: 1251566045}
   m_Layer: 8
   m_Name: Player6
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7664,7 +8302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251566043}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -7717,10 +8355,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 6
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1251566048
 Rigidbody2D:
   serializedVersion: 4
@@ -7790,6 +8442,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1268673718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1268673719}
+  - component: {fileID: 1268673720}
+  - component: {fileID: 1268673721}
+  m_Layer: 0
+  m_Name: coin0
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1268673719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268673718}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.761791, y: -3.1719556, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1268673720
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268673718}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &1268673721
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268673718}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &1274642667
 GameObject:
   m_ObjectHideFlags: 0
@@ -7946,6 +8694,144 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301673272}
   m_CullTransparentMesh: 0
+--- !u!1 &1312485227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312485228}
+  - component: {fileID: 1312485229}
+  - component: {fileID: 1312485230}
+  m_Layer: 0
+  m_Name: coin7
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1312485228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312485227}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.6714773, y: -1.1239214, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1312485229
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312485227}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.5, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &1312485230
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312485227}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
+--- !u!1 &1346225919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1346225920}
+  m_Layer: 0
+  m_Name: rewards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1346225920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346225919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3792896, y: -1.1714792, z: -0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1268673719}
+  - {fileID: 1482854978}
+  - {fileID: 1687908578}
+  - {fileID: 577859470}
+  - {fileID: 2091202334}
+  - {fileID: 2098525266}
+  - {fileID: 1586685783}
+  - {fileID: 1312485228}
+  - {fileID: 1099537583}
+  - {fileID: 1578459479}
+  - {fileID: 804708836}
+  - {fileID: 1526770848}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1398073477
 GameObject:
   m_ObjectHideFlags: 0
@@ -8041,7 +8927,7 @@ GameObject:
   - component: {fileID: 1398790608}
   m_Layer: 8
   m_Name: Player31
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8054,7 +8940,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398790606}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -8107,10 +8993,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 31
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1398790611
 Rigidbody2D:
   serializedVersion: 4
@@ -8312,7 +9212,7 @@ GameObject:
   - component: {fileID: 1453744156}
   m_Layer: 8
   m_Name: Player23
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8325,7 +9225,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453744154}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -8378,10 +9278,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 23
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1453744159
 Rigidbody2D:
   serializedVersion: 4
@@ -8544,7 +9458,7 @@ GameObject:
   - component: {fileID: 1465988778}
   m_Layer: 8
   m_Name: Player24
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8557,7 +9471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465988776}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -8610,10 +9524,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 24
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1465988781
 Rigidbody2D:
   serializedVersion: 4
@@ -8699,7 +9627,7 @@ GameObject:
   - component: {fileID: 1481843452}
   m_Layer: 8
   m_Name: Player34
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8712,7 +9640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481843450}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -8765,10 +9693,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 34
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1481843455
 Rigidbody2D:
   serializedVersion: 4
@@ -8838,6 +9780,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1482854977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1482854978}
+  - component: {fileID: 1482854979}
+  - component: {fileID: 1482854980}
+  m_Layer: 0
+  m_Name: coin1
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1482854978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482854977}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.513949, y: -3.1719556, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1482854979
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482854977}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &1482854980
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482854977}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &1507925810
 GameObject:
   m_ObjectHideFlags: 0
@@ -8854,7 +9892,7 @@ GameObject:
   - component: {fileID: 1507925812}
   m_Layer: 8
   m_Name: Player7
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8867,7 +9905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507925810}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -8920,10 +9958,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 7
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1507925815
 Rigidbody2D:
   serializedVersion: 4
@@ -9123,7 +10175,7 @@ GameObject:
   - component: {fileID: 1517230351}
   m_Layer: 8
   m_Name: Player1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9175,10 +10227,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 1
   text1: {fileID: 160732749}
   text2: {fileID: 1902903796}
   text3: {fileID: 671545902}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1517230354
 Rigidbody2D:
   serializedVersion: 4
@@ -9256,12 +10322,108 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517230350}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1526770847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526770848}
+  - component: {fileID: 1526770849}
+  - component: {fileID: 1526770850}
+  m_Layer: 0
+  m_Name: coin11
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1526770848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526770847}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.913566, y: 2.7723398, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1526770849
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526770847}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.5, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &1526770850
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526770847}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &1534866457
 GameObject:
   m_ObjectHideFlags: 0
@@ -9278,7 +10440,7 @@ GameObject:
   - component: {fileID: 1534866463}
   m_Layer: 8
   m_Name: Player0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9339,7 +10501,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534866457}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -9394,10 +10556,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 0
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!95 &1534866463
 Animator:
   serializedVersion: 3
@@ -9433,7 +10609,7 @@ GameObject:
   - component: {fileID: 1553687020}
   m_Layer: 8
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9485,10 +10661,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 2
   text1: {fileID: 334737757}
   text2: {fileID: 683363861}
   text3: {fileID: 869635588}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1553687023
 Rigidbody2D:
   serializedVersion: 4
@@ -9566,7 +10756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553687019}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -9588,7 +10778,7 @@ GameObject:
   - component: {fileID: 1569943875}
   m_Layer: 8
   m_Name: Player9
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9601,7 +10791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569943873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -9654,10 +10844,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 9
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1569943878
 Rigidbody2D:
   serializedVersion: 4
@@ -9743,7 +10947,7 @@ GameObject:
   - component: {fileID: 1571568032}
   m_Layer: 8
   m_Name: Player48
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9756,7 +10960,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571568030}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -9809,10 +11013,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 48
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1571568035
 Rigidbody2D:
   serializedVersion: 4
@@ -9996,6 +11214,198 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572787321}
   m_CullTransparentMesh: 0
+--- !u!1 &1578459478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578459479}
+  - component: {fileID: 1578459480}
+  - component: {fileID: 1578459481}
+  m_Layer: 0
+  m_Name: coin9
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1578459479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578459478}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.8674498, y: 0.9214792, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1578459480
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578459478}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.5, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &1578459481
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578459478}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
+--- !u!1 &1586685782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1586685783}
+  - component: {fileID: 1586685784}
+  - component: {fileID: 1586685785}
+  m_Layer: 0
+  m_Name: coin6
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1586685783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586685782}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5244956, y: -3.2219076, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1586685784
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586685782}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.5, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &1586685785
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586685782}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &1611453378
 GameObject:
   m_ObjectHideFlags: 0
@@ -10166,7 +11576,7 @@ GameObject:
   - component: {fileID: 1653906761}
   m_Layer: 8
   m_Name: Player8
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10179,7 +11589,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653906759}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -10232,10 +11642,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 8
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1653906764
 Rigidbody2D:
   serializedVersion: 4
@@ -10321,7 +11745,7 @@ GameObject:
   - component: {fileID: 1665175467}
   m_Layer: 8
   m_Name: Player16
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10334,7 +11758,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665175465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -10387,10 +11811,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 16
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1665175470
 Rigidbody2D:
   serializedVersion: 4
@@ -10539,6 +11977,102 @@ Transform:
   m_Father: {fileID: 291047902}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1687908577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687908578}
+  - component: {fileID: 1687908579}
+  - component: {fileID: 1687908580}
+  m_Layer: 0
+  m_Name: coin2
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1687908578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687908577}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.266108, y: 0.07492876, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1687908579
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687908577}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &1687908580
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687908577}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &1689101901
 GameObject:
   m_ObjectHideFlags: 0
@@ -10555,7 +12089,7 @@ GameObject:
   - component: {fileID: 1689101903}
   m_Layer: 8
   m_Name: Player11
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10568,7 +12102,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1689101901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -10621,10 +12155,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 11
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1689101906
 Rigidbody2D:
   serializedVersion: 4
@@ -10710,7 +12258,7 @@ GameObject:
   - component: {fileID: 1696863251}
   m_Layer: 8
   m_Name: Player39
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10723,7 +12271,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696863249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -10776,10 +12324,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 39
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1696863254
 Rigidbody2D:
   serializedVersion: 4
@@ -10865,7 +12427,7 @@ GameObject:
   - component: {fileID: 1713624719}
   m_Layer: 8
   m_Name: Player27
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10878,7 +12440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713624717}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -10931,10 +12493,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 27
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1713624722
 Rigidbody2D:
   serializedVersion: 4
@@ -11020,7 +12596,7 @@ GameObject:
   - component: {fileID: 1720598675}
   m_Layer: 8
   m_Name: Player38
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11033,7 +12609,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720598673}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -11086,10 +12662,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 38
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1720598678
 Rigidbody2D:
   serializedVersion: 4
@@ -11489,7 +13079,7 @@ GameObject:
   - component: {fileID: 1782689515}
   m_Layer: 8
   m_Name: Player3
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11502,7 +13092,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782689513}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -11555,10 +13145,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 3
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1782689518
 Rigidbody2D:
   serializedVersion: 4
@@ -11837,7 +13441,7 @@ GameObject:
   - component: {fileID: 1829596130}
   m_Layer: 8
   m_Name: Player47
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11850,7 +13454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829596128}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -11903,10 +13507,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 47
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1829596133
 Rigidbody2D:
   serializedVersion: 4
@@ -12106,7 +13724,7 @@ GameObject:
   - component: {fileID: 1942973473}
   m_Layer: 8
   m_Name: Player36
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12119,7 +13737,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942973471}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -12172,10 +13790,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 36
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1942973476
 Rigidbody2D:
   serializedVersion: 4
@@ -12366,7 +13998,7 @@ GameObject:
   - component: {fileID: 1973249007}
   m_Layer: 8
   m_Name: Player21
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12379,7 +14011,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973249005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -12432,10 +14064,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 21
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1973249010
 Rigidbody2D:
   serializedVersion: 4
@@ -12521,7 +14167,7 @@ GameObject:
   - component: {fileID: 1997449004}
   m_Layer: 8
   m_Name: Player4
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12534,7 +14180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997449002}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -12587,10 +14233,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 4
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &1997449007
 Rigidbody2D:
   serializedVersion: 4
@@ -12676,7 +14336,7 @@ GameObject:
   - component: {fileID: 2003117595}
   m_Layer: 8
   m_Name: Player5
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12689,7 +14349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003117593}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -12742,10 +14402,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 5
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &2003117598
 Rigidbody2D:
   serializedVersion: 4
@@ -13207,6 +14881,102 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091198393}
   m_CullTransparentMesh: 0
+--- !u!1 &2091202333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2091202334}
+  - component: {fileID: 2091202335}
+  - component: {fileID: 2091202336}
+  m_Layer: 0
+  m_Name: coin4
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2091202334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091202333}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.1709957, y: 0.8714792, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2091202335
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091202333}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.5, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &2091202336
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091202333}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &2092829936
 GameObject:
   m_ObjectHideFlags: 0
@@ -13223,7 +14993,7 @@ GameObject:
   - component: {fileID: 2092829938}
   m_Layer: 8
   m_Name: Player17
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13236,7 +15006,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092829936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -13289,10 +15059,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 17
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &2092829941
 Rigidbody2D:
   serializedVersion: 4
@@ -13362,6 +15146,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2098525265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2098525266}
+  - component: {fileID: 2098525267}
+  - component: {fileID: 2098525268}
+  m_Layer: 0
+  m_Name: coin5
+  m_TagString: rewards
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2098525266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098525265}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.4226751, y: 0.9214792, z: 0.22338492}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1346225920}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2098525267
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098525265}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300050, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.5, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &2098525268
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098525265}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &2127598286
 GameObject:
   m_ObjectHideFlags: 0
@@ -13378,7 +15258,7 @@ GameObject:
   - component: {fileID: 2127598288}
   m_Layer: 8
   m_Name: Player20
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13391,7 +15271,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127598286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0.21484375}
+  m_LocalPosition: {x: -5.08727, y: -2.6728272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 182562163}
@@ -13444,10 +15324,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15019f19d6aaf5e48a0b45cc5aa8bf3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   playerid: 20
   text1: {fileID: 1431580987}
   text2: {fileID: 1805526471}
   text3: {fileID: 99396972}
+  coins:
+  - {fileID: 1268673718}
+  - {fileID: 1482854977}
+  - {fileID: 1687908577}
+  - {fileID: 577859469}
+  - {fileID: 2091202333}
+  - {fileID: 2098525265}
+  - {fileID: 1586685782}
+  - {fileID: 1312485227}
+  - {fileID: 1099537582}
+  - {fileID: 1578459478}
+  - {fileID: 804708835}
+  - {fileID: 1526770847}
 --- !u!50 &2127598291
 Rigidbody2D:
   serializedVersion: 4

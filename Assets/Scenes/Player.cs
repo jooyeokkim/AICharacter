@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    private int score;
+    public int score;
     public int playerid;
     Rigidbody2D rigid;
     SpriteRenderer spriterender;
@@ -115,7 +115,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "dropcollider")
         {
-
+            score = -10;
         }
         if (collision.gameObject.tag == "rewards")
         {
@@ -124,8 +124,11 @@ public class Player : MonoBehaviour
                 string s = "coin" + i;
                 if (collision.gameObject.name == s)
                 {
-                    v[i] = true;
-                    Debug.Log(s);
+                    if (!v[i])
+                    {
+                        score++;
+                        v[i] = true;
+                    }
                 }
             }
         }
