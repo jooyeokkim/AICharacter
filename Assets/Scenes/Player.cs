@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
         }
         if (gojump && !anim.GetBool("isjumping"))
         {
-            rigid.AddForce(Vector2.up * 12, ForceMode2D.Impulse);
+            rigid.AddForce(Vector2.up * 20, ForceMode2D.Impulse);
             anim.SetBool("isjumping", true);
         }
     }
