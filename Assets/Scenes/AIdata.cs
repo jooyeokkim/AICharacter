@@ -1,27 +1,81 @@
-﻿using System.Collections;
+﻿using System;
+using System.Text;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class AIdata : MonoBehaviour
 {
-    public static AIdata instance = null;
-    public int count;
+    struct gen
+    {
+        public string gen1;
+        public string gen2;
+        public int score;
+        public gen(string gen1, string gen2, int score)
+        {
+            this.gen1 = gen1;
+            this.gen2 = gen2;
+            this.score = score;
+        }
+    }
+    class sort : IComparer
+    {
+        int IComparer.Compare(object _x, object _y)
+        {
+            gen x = (gen)_x;
+            gen y = (gen)_y;
+            return y.score.CompareTo(x.score);
+        }
+
+    }
+    List<gen> top1gene;
+
+    //public static AIdata instance = null;
+    public int generation = 0;
+    public int howmanysamples = 50;
+    gen[] gene = new gen[50];
     void Awake()
     {
-        if (instance == null)
+        /*if (instance == null)
             instance = this;
         else if (instance != this)
         {
             Destroy(gameObject);
         }
-        DontDestroyOnLoad(gameObject);
-        count = 0;
-        up();
+        DontDestroyOnLoad(gameObject);*/
+        top1gene = new List<gen>();
     }
-    void up()
+    public void AddData(int playernum, string ai, string jumpai, int score)
     {
-        count++;
-        Invoke("up", 2);
+        gene[playernum] = new gen(ai, jumpai, score);
+    }
+    public void sortAddData()
+    {
+        IComparer gosort = new sort();
+        Array.Sort(gene, gosort);
+        Debug.Log("Finish Sort");
+    }
+    public void printGreatData()
+    {
+        for(int i = 0; i < 50; i++)
+        {
+            Debug.Log(gene[i].score + "and" + gene[i].gen1 + "and" + gene[i].gen2);
+        }
+        top1gene.Add(gene[generation]);
+    }
+    public string gettopgen1()
+    {
+        return top1gene[generation].gen1;
+    }
+    public string gettopgen2()
+    {
+        return top1gene[generation].gen2;
+    }
+    public void nextgeneration()
+    {
+        SceneManager.LoadScene(0);
+        generation++;
     }
 }

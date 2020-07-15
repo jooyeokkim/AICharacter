@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Player : MonoBehaviour
+public class simulation : MonoBehaviour
 {
-    public int score;
-    public int playerid;
     public GameObject AIdataObject;
-    public Button sortdata;
     Rigidbody2D rigid;
     SpriteRenderer spriterender;
     Animator anim;
@@ -18,32 +15,23 @@ public class Player : MonoBehaviour
     int currentinsturction = -1;
     int currentinstructionjump = -1;
     int nextmove = 0;
-    int howmanysamples = 50;
     int doublejump = 0;
-    bool isfinished = false;
+    int howmanysamples = 50;
     bool candoublejump = false;
-    public GameObject[] coins;
     bool[] v;
     bool[] v2;
     // Start is called before the first frame update
     void Start()
     {
-
-        v = new bool[coins.Length];
+        AIdata aidata = AIdataObject.GetComponent<AIdata>();
         v2 = new bool[howmanysamples];
-        score = 0;
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriterender = GetComponent<SpriteRenderer>();
-        for(int i = 0; i < howmanysamples; i++)
-        {
-            int ran = Random.Range(0, 3);
-            int jum = Random.Range(0, 2);
-            ai += ran;
-            aijump += jum;
-        }
-        Debug.Log(ai);
-        Debug.Log(aijump);
+        ai = aidata.gettopgen1();
+        aijump = aidata.gettopgen2();
+        //ai = "10120121111202101002111212012201112121211011110111";
+        //aijump = "10000100001000101001000100100010010001000001000000";
         play();
         jump();
     }
@@ -74,13 +62,6 @@ public class Player : MonoBehaviour
             candoublejump = true;
         }
         else candoublejump = false;
-        if (currentinstructionjump >= aijump.Length && currentinsturction >= aijump.Length && !isfinished)
-        {
-            isfinished = true;
-            AIdata aidata = AIdataObject.GetComponent<AIdata>();
-            aidata.AddData(playerid, ai, aijump, score);
-            sortdata.interactable = true;           
-        }
         if (gojump && !v2[currentinstructionjump])
         {
             v2[currentinstructionjump] = true;
@@ -89,17 +70,10 @@ public class Player : MonoBehaviour
                 rigid.AddForce(Vector2.up * 18, ForceMode2D.Impulse);
                 doublejump = 1;
             }
-            else if(rigid.velocity.y<-5 && candoublejump)
+            else if (rigid.velocity.y < -5 && candoublejump)
             {
                 rigid.AddForce(Vector2.up * 18, ForceMode2D.Impulse);
                 doublejump = 0;
-            }
-            else
-            {
-                //Debug.Log(currentinstructionjump);
-                aijump = aijump.Remove(currentinstructionjump, 1); //processing missed jump
-                aijump = aijump.Insert(currentinstructionjump, "0"); //processing missed jump
-                //Debug.Log(aijump);               
             }
             anim.SetBool("isjumping", true);
         }
@@ -107,7 +81,7 @@ public class Player : MonoBehaviour
     void play()
     {
         currentinsturction++;
-        if (currentinsturction>= ai.Length)
+        if (currentinsturction >= ai.Length)
         {
             //CancelInvoke();
             nextmove = 0;
@@ -134,7 +108,7 @@ public class Player : MonoBehaviour
     void jump()
     {
         currentinstructionjump++;
-        if (currentinstructionjump>= aijump.Length)
+        if (currentinstructionjump >= aijump.Length)
         {
             //CancelInvoke();
             nextmove = 0;
@@ -145,28 +119,5 @@ public class Player : MonoBehaviour
         if (aijump[currentinstructionjump] == '0') gojump = false;
         else gojump = true;
         Invoke("jump", 0.3f);
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "dropcollider")
-        {
-            score = -10;
-        }
-        if (collision.gameObject.tag == "rewards")
-        {
-            for(int i = 0; i < coins.Length; i++)
-            {
-                string s = "coin" + i;
-                if (collision.gameObject.name == s)
-                {
-                    if (!v[i])
-                    {
-                        score += (i + 1);
-                        v[i] = true;
-                    }
-                }
-            }
-        }
-
     }
 }

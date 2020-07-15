@@ -196,9 +196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 41
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -212,7 +211,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &38395513
 Rigidbody2D:
   serializedVersion: 4
@@ -366,9 +364,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 19
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -382,7 +379,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &55276680
 Rigidbody2D:
   serializedVersion: 4
@@ -1295,9 +1291,90 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: 1794, y: 628, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1795, y: 628, z: 0}
+    second:
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1796, y: 628, z: 0}
+    second:
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1737, y: 749, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1738, y: 749, z: 0}
+    second:
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1739, y: 749, z: 0}
+    second:
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1710, y: 756, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1711, y: 756, z: 0}
+    second:
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1712, y: 756, z: 0}
+    second:
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 7
+  - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: ba3230653420ec747a233b4156ac1571, type: 2}
   - m_RefCount: 19
     m_Data: {fileID: 11400000, guid: 6a098689cebc84442a887e51346d6df9, type: 2}
@@ -1307,16 +1384,16 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: df5f89e5200c58f4e8049249adf5a744, type: 2}
   - m_RefCount: 19
     m_Data: {fileID: 11400000, guid: 5d03a15d2b5534f4da85ece9525b36bd, type: 2}
-  - m_RefCount: 7
+  - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: 362615fbd1e02d3418bcfcbc819565ed, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 921a2299492fd3e4c83a1bdea64f4dec, type: 2}
-  - m_RefCount: 24
+  - m_RefCount: 27
     m_Data: {fileID: 11400000, guid: 4ceffee39b718b84bb55355684d59735, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 8d632a8d3ccd40a4f82d1ce472e7cdc6, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 7
+  - m_RefCount: 10
     m_Data: {fileID: 21300064, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
   - m_RefCount: 19
     m_Data: {fileID: 21300078, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
@@ -1326,16 +1403,16 @@ Tilemap:
     m_Data: {fileID: 21300076, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
   - m_RefCount: 19
     m_Data: {fileID: 21300070, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
-  - m_RefCount: 7
+  - m_RefCount: 10
     m_Data: {fileID: 21300066, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300074, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
-  - m_RefCount: 24
+  - m_RefCount: 27
     m_Data: {fileID: 21300068, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300080, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 84
+  - m_RefCount: 93
     m_Data:
       e00: 1
       e01: 0
@@ -1354,12 +1431,12 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 84
+  - m_RefCount: 93
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -15, y: -3, z: 0}
-  m_Size: {x: 31, y: 9, z: 1}
+  m_Size: {x: 1812, y: 760, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -1477,9 +1554,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 22
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -1493,7 +1569,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &75461632
 Rigidbody2D:
   serializedVersion: 4
@@ -1642,6 +1717,158 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &93113777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 93113782}
+  - component: {fileID: 93113781}
+  - component: {fileID: 93113780}
+  - component: {fileID: 93113779}
+  - component: {fileID: 93113778}
+  - component: {fileID: 93113783}
+  m_Layer: 8
+  m_Name: bestPlayer
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!95 &93113778
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93113777}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bd173fe3d14edb047ba2a726967a5f8b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &93113779
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93113777}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1, y: 1}
+  m_Direction: 0
+--- !u!50 &93113780
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93113777}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 3
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!212 &93113781
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93113777}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 9
+  m_Sprite: {fileID: 21300000, guid: 2dba54e60dee31f43847ac501629f02c, type: 3}
+  m_Color: {r: 0.9433962, g: 0.53844786, b: 0.53844786, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &93113782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93113777}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5, y: -2.6728272, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 182562163}
+  m_RootOrder: 50
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &93113783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93113777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ec04f1cfcf87d49923511afa2addbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AIdataObject: {fileID: 1582609183}
 --- !u!1 &101334022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1726,9 +1953,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 18
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -1742,7 +1968,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &101334027
 Rigidbody2D:
   serializedVersion: 4
@@ -1896,9 +2121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 29
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -1912,7 +2136,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &104928741
 Rigidbody2D:
   serializedVersion: 4
@@ -2066,9 +2289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 10
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -2082,7 +2304,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &109532632
 Rigidbody2D:
   serializedVersion: 4
@@ -2236,9 +2457,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 46
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -2252,7 +2472,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &118155465
 Rigidbody2D:
   serializedVersion: 4
@@ -2406,9 +2625,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 15
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -2422,7 +2640,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &120125756
 Rigidbody2D:
   serializedVersion: 4
@@ -2569,6 +2786,7 @@ Transform:
   - {fileID: 1829596129}
   - {fileID: 1571568031}
   - {fileID: 727489629}
+  - {fileID: 93113782}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2735,9 +2953,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 42
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -2751,7 +2968,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &205880526
 Rigidbody2D:
   serializedVersion: 4
@@ -2984,9 +3200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 26
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -3000,7 +3215,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &285766498
 Rigidbody2D:
   serializedVersion: 4
@@ -3127,7 +3341,7 @@ GameObject:
   - component: {fileID: 334639521}
   - component: {fileID: 334639520}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Reset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3205,8 +3419,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 334639520}
-        m_MethodName: Re
+      - m_Target: {fileID: 617139182}
+        m_MethodName: _nextgeneration
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3250,6 +3464,83 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334639518}
+  m_CullTransparentMesh: 0
+--- !u!1 &387741578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 387741579}
+  - component: {fileID: 387741581}
+  - component: {fileID: 387741580}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &387741579
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387741578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1738569873}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &387741580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387741578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: show
+--- !u!222 &387741581
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387741578}
   m_CullTransparentMesh: 0
 --- !u!1 &416691336
 GameObject:
@@ -3335,9 +3626,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 25
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -3351,7 +3641,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &416691341
 Rigidbody2D:
   serializedVersion: 4
@@ -3505,9 +3794,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 13
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -3521,7 +3809,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &435828229
 Rigidbody2D:
   serializedVersion: 4
@@ -3675,9 +3962,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 37
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -3691,7 +3977,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &470509965
 Rigidbody2D:
   serializedVersion: 4
@@ -3845,9 +4130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 33
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -3861,7 +4145,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &479923725
 Rigidbody2D:
   serializedVersion: 4
@@ -4176,9 +4459,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 44
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -4192,7 +4474,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &528348862
 Rigidbody2D:
   serializedVersion: 4
@@ -4437,6 +4718,53 @@ Transform:
   m_Father: {fileID: 291047902}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &617139181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 617139183}
+  - component: {fileID: 617139182}
+  m_Layer: 0
+  m_Name: ButtonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &617139182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617139181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d7bd6e0c4548c4fba5301515bfe571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AIdataObject: {fileID: 1582609183}
+  bestplayer: {fileID: 93113777}
+  showdata: {fileID: 1738569874}
+  showbestdata: {fileID: 880643136}
+--- !u!4 &617139183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617139181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1177.147, y: 793.2377, z: -6.4248714}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &698060517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4521,9 +4849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 12
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -4537,7 +4864,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &698060522
 Rigidbody2D:
   serializedVersion: 4
@@ -4691,9 +5017,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 28
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -4707,7 +5032,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &708568892
 Rigidbody2D:
   serializedVersion: 4
@@ -4861,9 +5185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 49
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -4877,7 +5200,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &727489633
 Rigidbody2D:
   serializedVersion: 4
@@ -5176,9 +5498,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 32
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -5192,7 +5513,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &755049100
 Rigidbody2D:
   serializedVersion: 4
@@ -5573,6 +5893,131 @@ Transform:
   m_Father: {fileID: 291047902}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &880643134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 880643135}
+  - component: {fileID: 880643138}
+  - component: {fileID: 880643137}
+  - component: {fileID: 880643136}
+  m_Layer: 5
+  m_Name: showbestdata
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &880643135
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880643134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1045858512}
+  m_Father: {fileID: 1969836769}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 266, y: 78.3}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &880643136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880643134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 880643137}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 617139182}
+        m_MethodName: setactiveBestPlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &880643137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880643134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &880643138
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880643134}
+  m_CullTransparentMesh: 0
 --- !u!1 &890111437
 GameObject:
   m_ObjectHideFlags: 0
@@ -5657,9 +6102,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 40
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -5673,7 +6117,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &890111442
 Rigidbody2D:
   serializedVersion: 4
@@ -5827,9 +6270,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 43
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -5843,7 +6285,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &939657904
 Rigidbody2D:
   serializedVersion: 4
@@ -5913,6 +6354,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1045858511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1045858512}
+  - component: {fileID: 1045858514}
+  - component: {fileID: 1045858513}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1045858512
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045858511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 880643135}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1045858513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045858511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: show greatest
+--- !u!222 &1045858514
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045858511}
+  m_CullTransparentMesh: 0
 --- !u!1 &1054769754
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,9 +6515,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 35
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -6013,7 +6530,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1054769759
 Rigidbody2D:
   serializedVersion: 4
@@ -6167,9 +6683,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 14
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -6183,7 +6698,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1068077846
 Rigidbody2D:
   serializedVersion: 4
@@ -6337,9 +6851,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 30
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -6353,7 +6866,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1072362034
 Rigidbody2D:
   serializedVersion: 4
@@ -6603,9 +7115,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 45
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -6619,7 +7130,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1174998260
 Rigidbody2D:
   serializedVersion: 4
@@ -6852,9 +7362,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 6
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -6868,7 +7377,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1251566048
 Rigidbody2D:
   serializedVersion: 4
@@ -7181,7 +7689,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: reset
+  m_Text: next generation
 --- !u!222 &1301673275
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7491,9 +7999,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 31
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -7507,7 +8014,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1398790611
 Rigidbody2D:
   serializedVersion: 4
@@ -7577,6 +8083,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1443774244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1443774245}
+  - component: {fileID: 1443774247}
+  - component: {fileID: 1443774246}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1443774245
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443774244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1782705058}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1443774246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443774244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: sort
+--- !u!222 &1443774247
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443774244}
+  m_CullTransparentMesh: 0
 --- !u!1 &1453744154
 GameObject:
   m_ObjectHideFlags: 0
@@ -7661,9 +8244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 23
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -7677,7 +8259,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1453744159
 Rigidbody2D:
   serializedVersion: 4
@@ -7831,9 +8412,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 24
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -7847,7 +8427,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1465988781
 Rigidbody2D:
   serializedVersion: 4
@@ -8001,9 +8580,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 34
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -8017,7 +8595,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1481843455
 Rigidbody2D:
   serializedVersion: 4
@@ -8267,9 +8844,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 7
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -8283,7 +8859,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1507925815
 Rigidbody2D:
   serializedVersion: 4
@@ -8423,9 +8998,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 1
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -8439,7 +9013,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1517230354
 Rigidbody2D:
   serializedVersion: 4
@@ -8753,9 +9326,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 0
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -8769,7 +9341,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!95 &1534866463
 Animator:
   serializedVersion: 3
@@ -8859,9 +9430,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 2
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -8875,7 +9445,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1553687023
 Rigidbody2D:
   serializedVersion: 4
@@ -9043,9 +9612,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 9
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -9059,7 +9627,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1569943878
 Rigidbody2D:
   serializedVersion: 4
@@ -9213,9 +9780,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 48
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -9229,7 +9795,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1571568035
 Rigidbody2D:
   serializedVersion: 4
@@ -9424,7 +9989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 667a6d8bf7173624c814fe4045c309f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: 0
+  generation: 0
+  howmanysamples: 50
 --- !u!4 &1582609185
 Transform:
   m_ObjectHideFlags: 0
@@ -9619,9 +10185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 8
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -9635,7 +10200,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1653906764
 Rigidbody2D:
   serializedVersion: 4
@@ -9789,9 +10353,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 16
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -9805,7 +10368,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1665175470
 Rigidbody2D:
   serializedVersion: 4
@@ -10134,9 +10696,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 11
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -10150,7 +10711,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1689101906
 Rigidbody2D:
   serializedVersion: 4
@@ -10304,9 +10864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 39
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -10320,7 +10879,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1696863254
 Rigidbody2D:
   serializedVersion: 4
@@ -10474,9 +11032,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 27
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -10490,7 +11047,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1713624722
 Rigidbody2D:
   serializedVersion: 4
@@ -10644,9 +11200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 38
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -10660,7 +11215,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1720598678
 Rigidbody2D:
   serializedVersion: 4
@@ -10774,6 +11328,131 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1738569872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1738569873}
+  - component: {fileID: 1738569876}
+  - component: {fileID: 1738569875}
+  - component: {fileID: 1738569874}
+  m_Layer: 5
+  m_Name: showdata
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1738569873
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738569872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 387741579}
+  m_Father: {fileID: 1969836769}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 266, y: 133.51}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1738569874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738569872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 1738569875}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 617139182}
+        m_MethodName: PrintandSaveBestData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1738569875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738569872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1738569876
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738569872}
+  m_CullTransparentMesh: 0
 --- !u!1 &1757893644
 GameObject:
   m_ObjectHideFlags: 0
@@ -10937,9 +11616,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 3
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -10953,7 +11631,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1782689518
 Rigidbody2D:
   serializedVersion: 4
@@ -11023,6 +11700,131 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1782705057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1782705058}
+  - component: {fileID: 1782705061}
+  - component: {fileID: 1782705060}
+  - component: {fileID: 1782705059}
+  m_Layer: 5
+  m_Name: sortdata
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1782705058
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782705057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1443774245}
+  m_Father: {fileID: 1969836769}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -6, y: 133.51}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1782705059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782705057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 1782705060}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 617139182}
+        m_MethodName: sortAddedData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1782705060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782705057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1782705061
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782705057}
+  m_CullTransparentMesh: 0
 --- !u!1 &1810651693
 GameObject:
   m_ObjectHideFlags: 0
@@ -11186,9 +11988,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 47
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -11202,7 +12003,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1829596133
 Rigidbody2D:
   serializedVersion: 4
@@ -11356,9 +12156,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 36
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -11372,7 +12171,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1942973476
 Rigidbody2D:
   serializedVersion: 4
@@ -11533,6 +12331,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 334639519}
+  - {fileID: 1782705058}
+  - {fileID: 1738569873}
+  - {fileID: 880643135}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11625,9 +12426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 21
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -11641,7 +12441,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1973249010
 Rigidbody2D:
   serializedVersion: 4
@@ -11795,9 +12594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 4
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -11811,7 +12609,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &1997449007
 Rigidbody2D:
   serializedVersion: 4
@@ -11965,9 +12762,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 5
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -11981,7 +12777,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &2003117598
 Rigidbody2D:
   serializedVersion: 4
@@ -12507,9 +13302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 17
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -12523,7 +13317,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &2092829941
 Rigidbody2D:
   serializedVersion: 4
@@ -12773,9 +13566,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   playerid: 20
-  text1: {fileID: 0}
-  text2: {fileID: 0}
-  text3: {fileID: 0}
+  AIdataObject: {fileID: 1582609183}
+  sortdata: {fileID: 1782705059}
   coins:
   - {fileID: 1268673718}
   - {fileID: 1482854977}
@@ -12789,7 +13581,6 @@ MonoBehaviour:
   - {fileID: 1578459478}
   - {fileID: 804708835}
   - {fileID: 1526770847}
-  players: {fileID: 182562162}
 --- !u!50 &2127598291
 Rigidbody2D:
   serializedVersion: 4
