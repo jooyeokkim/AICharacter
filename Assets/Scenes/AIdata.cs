@@ -47,11 +47,6 @@ public class AIdata : MonoBehaviour
         DontDestroyOnLoad(gameObject);*/
         top1gene = new List<gen>();
     }
-    private void Update()
-    {
-        Debug.Log(Savegene.SavedGene1[0]);
-        Debug.Log(Savegene.SavedGene2[0]);
-    }
     public void AddData(int playernum, string ai, string jumpai, int score)
     {
         gene[playernum] = new gen(ai, jumpai, score);
@@ -64,10 +59,7 @@ public class AIdata : MonoBehaviour
     }
     public void printGreatData()
     {
-        for(int i = 0; i < 50; i++)
-        {
-            Debug.Log(gene[i].score + "and" + gene[i].gen1 + "and" + gene[i].gen2);
-        }
+        Debug.Log(gene[0].score + "and" + gene[0].gen1 + "and" + gene[0].gen2);
         top1gene.Add(gene[generation]);
         for(int i = 0; i < 20; i++)
         {

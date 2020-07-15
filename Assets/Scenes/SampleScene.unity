@@ -3533,7 +3533,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: show
+  m_Text: save and show
 --- !u!222 &387741581
 CanvasRenderer:
   m_ObjectHideFlags: 0

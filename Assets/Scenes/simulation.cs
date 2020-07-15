@@ -30,8 +30,9 @@ public class simulation : MonoBehaviour
         spriterender = GetComponent<SpriteRenderer>();
         ai = aidata.gettopgen1();
         aijump = aidata.gettopgen2();
-        //ai = "10120121111202101002111212012201112121211011110111";
-        //aijump = "10000100001000101001000100100010010001000001000000";
+        Debug.Log(ai);
+        Debug.Log(aijump);
+
         play();
         jump();
     }
