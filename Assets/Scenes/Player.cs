@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     string aijump = "";
     int currentinsturction = -1;
     int currentinstructionjump = -1;
-    int nextmove = 0;
+    float nextmove = 0;
     int howmanysamples = 50;
     int doublejump = 0;
     bool isfinished = false;
@@ -35,15 +35,23 @@ public class Player : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriterender = GetComponent<SpriteRenderer>();
-        for(int i = 0; i < howmanysamples; i++)
+        if (Savegene.generation == 0)
         {
-            int ran = Random.Range(0, 3);
-            int jum = Random.Range(0, 2);
-            ai += ran;
-            aijump += jum;
+            for (int i = 0; i < howmanysamples; i++)
+            {
+                int ran = Random.Range(0, 3);
+                int jum = Random.Range(0, 2);
+                ai += ran;
+                aijump += jum;
+            }
         }
-        Debug.Log(ai);
-        Debug.Log(aijump);
+        else
+        {
+            ai = Savegene.SavedGene1[playerid];
+            aijump = Savegene.SavedGene2[playerid];
+        }
+        Debug.Log("playerid="+playerid+"->"+ai);
+        Debug.Log("playerid=" + playerid + "->" + aijump);
         play();
         jump();
     }
@@ -97,8 +105,8 @@ public class Player : MonoBehaviour
             else
             {
                 //Debug.Log(currentinstructionjump);
-                aijump = aijump.Remove(currentinstructionjump, 1); //processing missed jump
-                aijump = aijump.Insert(currentinstructionjump, "0"); //processing missed jump
+                //aijump = aijump.Remove(currentinstructionjump, 1); //processing missed jump
+                //aijump = aijump.Insert(currentinstructionjump, "0"); //processing missed jump
                 //Debug.Log(aijump);               
             }
             anim.SetBool("isjumping", true);
@@ -117,12 +125,13 @@ public class Player : MonoBehaviour
         }
         if (ai[currentinsturction] == '0')
         {
-            nextmove = -3;
+            nextmove = -3.5f;
             spriterender.flipX = true;
         }
         else if (ai[currentinsturction] == '1')
         {
-            nextmove = 3;
+            score+=2;
+            nextmove = 3.5f;
             spriterender.flipX = false;
         }
         else
@@ -150,7 +159,8 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "dropcollider")
         {
-            score = -10;
+            score = -100;
+            return;
         }
         if (collision.gameObject.tag == "rewards")
         {
@@ -161,7 +171,7 @@ public class Player : MonoBehaviour
                 {
                     if (!v[i])
                     {
-                        score += (i + 1);
+                        score ++;
                         v[i] = true;
                     }
                 }

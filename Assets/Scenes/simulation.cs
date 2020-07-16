@@ -14,7 +14,7 @@ public class simulation : MonoBehaviour
     string aijump = "";
     int currentinsturction = -1;
     int currentinstructionjump = -1;
-    int nextmove = 0;
+    float nextmove = 0;
     int doublejump = 0;
     int howmanysamples = 50;
     bool candoublejump = false;
@@ -87,17 +87,17 @@ public class simulation : MonoBehaviour
             //CancelInvoke();
             nextmove = 0;
             gojump = false;
-            Debug.Log("play학습종료");
+            Debug.Log("play시뮬레이션종료");
             return;
         }
         if (ai[currentinsturction] == '0')
         {
-            nextmove = -3;
+            nextmove = -3.5f;
             spriterender.flipX = true;
         }
         else if (ai[currentinsturction] == '1')
         {
-            nextmove = 3;
+            nextmove = 3.5f;
             spriterender.flipX = false;
         }
         else
@@ -114,7 +114,7 @@ public class simulation : MonoBehaviour
             //CancelInvoke();
             nextmove = 0;
             gojump = false;
-            Debug.Log("jump학습종료");
+            Debug.Log("jump시뮬레이션종료");
             return;
         }
         if (aijump[currentinstructionjump] == '0') gojump = false;
