@@ -92,12 +92,12 @@ public class simulation : MonoBehaviour
         }
         if (ai[currentinsturction] == '0')
         {
-            nextmove = -3.5f;
+            nextmove = -4.0f;
             spriterender.flipX = true;
         }
         else if (ai[currentinsturction] == '1')
         {
-            nextmove = 3.5f;
+            nextmove = 4.0f;
             spriterender.flipX = false;
         }
         else

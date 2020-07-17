@@ -11,8 +11,8 @@ public class AIdata : MonoBehaviour
     {
         public string gen1;
         public string gen2;
-        public int score;
-        public gen(string gen1, string gen2, int score)
+        public float score;
+        public gen(string gen1, string gen2, float score)
         {
             this.gen1 = gen1;
             this.gen2 = gen2;
@@ -32,6 +32,7 @@ public class AIdata : MonoBehaviour
 
     //public static AIdata instance = null;
     public int generation = 0;
+    private int addcount = 0; //auto
     public int howmanysamples = 50;
     public GameObject bestplayer;
     public Button showdata;
@@ -49,9 +50,11 @@ public class AIdata : MonoBehaviour
         generation = Savegene.generation;
         generationtext.text = generation + "세대";
     }
-    public void AddData(int playernum, string ai, string jumpai, int score)
+    public void AddData(int playernum, string ai, string jumpai, float score)
     {
         gene[playernum] = new gen(ai, jumpai, score);
+        addcount++;
+        if (addcount >= 50) sortAddData(); //auto
     }
     public void sortAddData()
     {
@@ -59,6 +62,7 @@ public class AIdata : MonoBehaviour
         Array.Sort(gene, gosort);
         Debug.Log("Finish Sort");
         showdata.interactable = true;
+        printGreatData();//auto
     }
     public void printGreatData() //and save data!
     {
@@ -69,6 +73,7 @@ public class AIdata : MonoBehaviour
         top1gene[generation] = gene[0];
         showbestdata.interactable = true;
         learning.interactable = true;
+        Learning(); //auto
     }
     public string gettopgen1()
     {
@@ -181,6 +186,7 @@ public class AIdata : MonoBehaviour
         }
         Debug.Log("Finish learning");
         shownextgeneration.interactable = true;
+        ShowNextGeneration();//auto
     }
     public void ShowNextGeneration()
     {
@@ -190,5 +196,6 @@ public class AIdata : MonoBehaviour
             Debug.Log(Savegene.SavedGene1[i] + " and " + Savegene.SavedGene2[i]);
         }
         nextGeneration.interactable = true;
+        nextgeneration();//auto
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public int score;
+    public float score;
     public int playerid;
     public GameObject AIdataObject;
     public Button sortdata;
@@ -84,6 +84,7 @@ public class Player : MonoBehaviour
         else candoublejump = false;
         if (currentinstructionjump >= aijump.Length && currentinsturction >= aijump.Length && !isfinished)
         {
+            score += 10*this.gameObject.transform.localPosition.x;
             isfinished = true;
             AIdata aidata = AIdataObject.GetComponent<AIdata>();
             aidata.AddData(playerid, ai, aijump, score);
@@ -106,7 +107,7 @@ public class Player : MonoBehaviour
             {
                 //Debug.Log(currentinstructionjump);
                 //aijump = aijump.Remove(currentinstructionjump, 1); //processing missed jump
-                //aijump = aijump.Insert(currentinstructionjump, "0"); //processing missed jump
+                //aijump = aijump.Insert(currentinstructionjump, "0"); //processing missed jump. bad way
                 //Debug.Log(aijump);               
             }
             anim.SetBool("isjumping", true);
@@ -125,13 +126,12 @@ public class Player : MonoBehaviour
         }
         if (ai[currentinsturction] == '0')
         {
-            nextmove = -3.5f;
+            nextmove = -4.0f;
             spriterender.flipX = true;
         }
         else if (ai[currentinsturction] == '1')
         {
-            score+=2;
-            nextmove = 3.5f;
+            nextmove = 4.0f;
             spriterender.flipX = false;
         }
         else
@@ -169,9 +169,10 @@ public class Player : MonoBehaviour
                 string s = "coin" + i;
                 if (collision.gameObject.name == s)
                 {
+                    if (i == 10) Time.timeScale = 0;
                     if (!v[i])
                     {
-                        score ++;
+                        score+=i;
                         v[i] = true;
                     }
                 }
