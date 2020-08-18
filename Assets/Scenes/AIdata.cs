@@ -30,7 +30,6 @@ public class AIdata : MonoBehaviour
 
     }
 
-    //public static AIdata instance = null;
     public int generation = 0;
     private int addcount = 0; //auto
     public int howmanysamples = 50;
@@ -60,7 +59,7 @@ public class AIdata : MonoBehaviour
     {
         IComparer gosort = new sort();
         Array.Sort(gene, gosort);
-        Debug.Log("Finish Sort");
+        Debug.Log("Finish Sort!");
         showdata.interactable = true;
         printGreatData();//auto
     }
