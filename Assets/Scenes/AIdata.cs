@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class AIdata : MonoBehaviour
 {
+    //캐릭터의 유전자(이동 지시열, 점프 지시열, 점수)
     struct gen
     {
         public string gen1;
@@ -19,6 +20,8 @@ public class AIdata : MonoBehaviour
             this.score = score;
         }
     }
+
+    // 점수 순 정렬 IComparer
     class sort : IComparer
     {
         int IComparer.Compare(object _x, object _y)
@@ -34,14 +37,19 @@ public class AIdata : MonoBehaviour
     private int addcount = 0; //auto
     public int howmanysamples = 50;
     public GameObject bestplayer;
+
+    // 각각의 과정을 버튼을 눌러 실행시킬 경우 필요한 버튼 오브젝트
+    // 기본은 자동 모드, 수동 모드 필요 시 함수 끝에 있는 //auto 주석 줄을 제거할 것)
     public Button showdata;
     public Button showbestdata;
     public Button learning;
     public Button shownextgeneration;
     public Button nextGeneration;
+
     public Text generationtext;
     gen[] gene;
     gen[] top1gene;
+
     void Awake()
     {
         gene = new gen[50];
@@ -49,12 +57,14 @@ public class AIdata : MonoBehaviour
         generation = Savegene.generation;
         generationtext.text = generation + "세대";
     }
+
     public void AddData(int playernum, string ai, string jumpai, float score)
     {
         gene[playernum] = new gen(ai, jumpai, score);
         addcount++;
         if (addcount >= 50) sortAddData(); //auto
     }
+
     public void sortAddData()
     {
         IComparer gosort = new sort();
@@ -63,6 +73,7 @@ public class AIdata : MonoBehaviour
         showdata.interactable = true;
         printGreatData();//auto
     }
+
     public void printGreatData() //and save data!
     {
         for (int i = 0; i < 50; i++)
@@ -74,23 +85,28 @@ public class AIdata : MonoBehaviour
         learning.interactable = true;
         Learning(); //auto
     }
+
     public string gettopgen1()
     {
         return top1gene[generation].gen1;
     }
+
     public string gettopgen2()
     {
         return top1gene[generation].gen2;
     }
+
     public void nextgeneration()
     {
         Savegene.generationcount();
         SceneManager.LoadScene(0);
     }
+
     public void setactiveBestPlayer()
     {
         bestplayer.SetActive(true);
     }
+
     string mate(int x, int y) //교배
     {
         string child = "";
@@ -104,6 +120,7 @@ public class AIdata : MonoBehaviour
         }
         return child;
     }
+
     public void Learning() //and save data!
     {
         string[] babies = new string[50];
@@ -141,19 +158,6 @@ public class AIdata : MonoBehaviour
                 babies[i * 5 + j] = mate(i, 20 - 1 - i);
             }
         }
-        /*for(int i = 40; i < 50; i++)
-        {
-            for (int j = 0; j < 50; j++)
-            {
-                int ran = UnityEngine.Random.Range(0, 3);
-                babies[i] += ran;
-            }
-            for (int j = 50; j < 100; j++)
-            {
-                int jum = UnityEngine.Random.Range(0, 2);
-                babies[i] += jum;
-            }
-        }*/
 
         //mutation
         for (int i = 0; i < 50; i++)
@@ -187,6 +191,7 @@ public class AIdata : MonoBehaviour
         shownextgeneration.interactable = true;
         ShowNextGeneration();//auto
     }
+
     public void ShowNextGeneration()
     {
         Debug.Log("ShowNextGeneration");
