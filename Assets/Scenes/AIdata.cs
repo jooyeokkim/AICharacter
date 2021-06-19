@@ -39,7 +39,7 @@ public class AIdata : MonoBehaviour
     public GameObject bestplayer;
 
     // 각각의 과정을 버튼을 눌러 실행시킬 경우 필요한 버튼 오브젝트
-    // 기본은 자동 모드, 수동 모드 필요 시 함수 끝에 있는 //auto 주석 줄을 제거할 것)
+    // 기본은 자동 모드 / 수동 모드 필요 시 함수 끝에 있는 //auto 주석 줄을 제거할 것)
     public Button showdata;
     public Button showbestdata;
     public Button learning;
