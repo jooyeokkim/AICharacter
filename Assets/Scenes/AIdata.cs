@@ -65,7 +65,7 @@ public class AIdata : MonoBehaviour
         if (addcount >= 50) sortAddData(); //auto
     }
 
-    public void sortAddData()
+    public void sortAddData() // 점수 순으로 정렬
     {
         IComparer gosort = new sort();
         Array.Sort(gene, gosort);
@@ -86,23 +86,23 @@ public class AIdata : MonoBehaviour
         Learning(); //auto
     }
 
-    public string gettopgen1()
+    public string gettopgen1() // 최고득점 캐릭터의 이동 유전자 저장
     {
         return top1gene[generation].gen1;
     }
 
-    public string gettopgen2()
+    public string gettopgen2() // 최고득점 캐릭터의 점프 유전자 저장
     {
         return top1gene[generation].gen2;
     }
 
-    public void nextgeneration()
+    public void nextgeneration() // 다음 세대 시작
     {
         Savegene.generationcount();
         SceneManager.LoadScene(0);
     }
 
-    public void setactiveBestPlayer()
+    public void setactiveBestPlayer() // 최고득점 캐릭터 활성화
     {
         bestplayer.SetActive(true);
     }
